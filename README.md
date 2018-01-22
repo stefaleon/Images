@@ -84,3 +84,12 @@ Meteor.startup(() => {
 * Add the *image_detail.js* file.
 
 * Render *ImageDetail* components in the *ImageList*.
+
+
+
+&nbsp;
+## 05 Pass props and render mapped data
+
+* Add an array of images and ender its mapping to the *ImageList*.
+
+* The mapping function is returning *ImageDetail* components while passing image objects as props to them.
