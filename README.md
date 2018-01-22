@@ -69,3 +69,10 @@ Meteor.startup(() => {
   ReactDOM.render(<App />, document.querySelector('.container'));
 });
 ```
+
+&nbsp;
+## 03 Nest the image_list component
+
+* Add the *Components* folder and the *image_list.js* file.
+
+* Nest the *ImageList* component into *App*.
