@@ -30,3 +30,10 @@ C:\Code\images> meteor
 ```
 $ npm install --save react
 ```
+
+&nbsp;
+## 01 display static content
+
+* Add the *client* folder and *main.html*.
+
+* Add *test.js* inside *client*. It is automatically run by Meteor.
