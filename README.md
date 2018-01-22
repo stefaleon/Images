@@ -76,3 +76,11 @@ Meteor.startup(() => {
 * Add the *Components* folder and the *image_list.js* file.
 
 * Nest the *ImageList* component into *App*.
+
+
+&nbsp;
+## 04 image_detail
+
+* Add the *image_detail.js* file.
+
+* Render *ImageDetail* components in the *ImageList*.
