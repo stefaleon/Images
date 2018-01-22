@@ -37,3 +37,35 @@ $ npm install --save react
 * Add the *client* folder and *main.html*.
 
 * Add *test.js* inside *client*. It is automatically run by Meteor.
+
+
+&nbsp;
+## 02 render a component
+
+* Add *main.js* inside *client*.  
+
+* Import *React* and add the *App* component.
+
+* Install *react-dom*, import it and render *App*. Use *Meteor.startup* in order to have the render request run after page has finished loading.  
+
+```
+$ npm install --save react-dom
+```
+
+*main.js*
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = () => {
+  return (
+    <div>
+      Ohai from the App component!
+    </div>
+  );
+};
+
+Meteor.startup(() => {
+  ReactDOM.render(<App />, document.querySelector('.container'));
+});
+```
