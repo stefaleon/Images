@@ -1,0 +1,31 @@
+.app {
+  font-family: cursive;
+  font-size: 1.3em;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin: 1em;
+  padding: 1em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  grid-gap: .3em;
+
+}
+
+.item {
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #0f0f0f;
+  padding: .9em;
+
+}
+
+footer {
+  font-size: .7em;
+  margin-top: 2em;
+}
