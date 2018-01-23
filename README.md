@@ -101,3 +101,18 @@ Meteor.startup(() => {
 ## 06 Style
 
 * Tide up and style with CSS-Grid.
+
+
+
+&nbsp;
+## 07 get images from an API
+
+* Install Axios.
+
+```
+$ npm install --save axios
+```
+
+* Get images from the *imgur* API and pass them as props to the *ImageList* component.
+
+* Filter out the albums.
